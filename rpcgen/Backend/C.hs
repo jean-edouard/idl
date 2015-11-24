@@ -109,6 +109,7 @@ dbusTypeTag D.DBusWord32 = "DBUS_TYPE_UINT32"
 dbusTypeTag D.DBusWord64 = "DBUS_TYPE_UINT64"
 dbusTypeTag D.DBusDouble = "DBUS_TYPE_DOUBLE"
 dbusTypeTag D.DBusByte   = "DBUS_TYPE_BYTE"
+dbusTypeTag D.DBusArray t = "DBUS_TYPE_ARRAY," ++ dbusTypeTag t
 dbusTypeTag t            = error $ "not supporting dbus type " ++ show t
 
 cargsFromDBusMethod :: Method -> String
