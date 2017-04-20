@@ -153,7 +153,6 @@
     <property name="usb-enabled" type="b" access="readwrite"><tp:docstring>Enables PV USB support.</tp:docstring></property>
     <property name="usb-auto-passthrough" type="b" access="readwrite"><tp:docstring>Enables automatic passthrough of new USB devices to VM currently in focus upon plugging in.</tp:docstring></property>
     <property name="usb-control" type="b" access="readwrite"><tp:docstring>Enables the VM to communicate with the USB daemon.</tp:docstring></property>
-    <property name="usb-grab-devices" type="b" access="readwrite"><tp:docstring>Automatically assign all available USB devices upon this VM start.</tp:docstring></property>
     <property name="greedy-pciback-bind" type="b" access="readwrite"><tp:docstring>Bind passthrough pci devices to pciback early, to prevent their use by other VMs.</tp:docstring></property>
 
     <property name="policy-modify-vm-settings" type="b" access="readwrite"><tp:docstring>Allow modification of VM settings.</tp:docstring></property>
@@ -489,7 +488,6 @@
     <property name="usb-enabled" type="b" access="readwrite"><tp:docstring>Enables PV USB support.</tp:docstring></property>
     <property name="usb-auto-passthrough" type="b" access="readwrite"><tp:docstring>Enables automatic passthrough of new USB devices to VM currently in focus upon plugging in.</tp:docstring></property>
     <property name="usb-control" type="b" access="readwrite"><tp:docstring>Enables VM to talk to USB daemon</tp:docstring></property>
-    <property name="usb-grab-devices" type="b" access="readwrite"><tp:docstring>Automatically assign all available USB devices upon this VM start.</tp:docstring></property>
     <property name="greedy-pciback-bind" type="b" access="readwrite"><tp:docstring>Bind passthrough pci devices to pciback early, to prevent their use by other VMs.</tp:docstring></property>
 
     <property name="policy-modify-vm-settings" type="b" access="readwrite"><tp:docstring>Allow modification of VM settings.</tp:docstring></property>
